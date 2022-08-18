@@ -15,9 +15,9 @@ body {
 
 #logo-nav-section {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0.85rem;
+    padding: 0.5rem 1.3rem;
     margin-bottom: 1.5rem;
 }
 
@@ -72,6 +72,7 @@ body {
     padding: 1rem 4.5rem;
     font-size: 1.2rem;
     margin-top: 1.6rem;
+    border: none;
 }
 
 #header button:active {
@@ -114,7 +115,7 @@ body {
 
 #first-section .feature {
     width: 20rem;
-    margin: 8.5rem auto;
+    margin: 5.5rem auto;
 }
 
 #mid-section {
@@ -153,6 +154,7 @@ body {
 
 #mid-section p {
     font-family: 'Open Sans', serif;
+    font-size: 0.75rem;
     color: hsl(0, 0%, 95%);
     margin: 1rem 0;
 }
@@ -267,6 +269,7 @@ h3 {
     border-radius: 25px;
     padding: 0.75rem;
     background-color: hsl(0, 0%, 100%);
+    border: none;
 }
 
 #third-section .input-button-wrapper button {
@@ -282,6 +285,7 @@ h3 {
         hsl(198, 60%, 50%) 85%
     );
     color: hsl(0, 0%, 100%);
+    border: none;
 }
 
 #third-section .input-button-wrapper button:active {
@@ -296,6 +300,7 @@ footer {
 }
 
 footer p {
+    font-size: 0.75rem;
     color: hsl(0, 0%, 95%);
     line-height: 1.4;
     width: 20rem;
